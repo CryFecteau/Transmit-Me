@@ -4,6 +4,7 @@ import { RightBarComponent } from './components/rightBar-component';
 import { SideBarComponent } from './components/sideBar-component';
 import './App.css';
 import { NavBarComponent } from './components/navBar-component';
+import { AddPostComponent } from './components/addPost-component';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <FeedComponent />
         <RightBarComponent />
       </Stack>
+      <AddPostComponent />
     </Box>
   );
 }
