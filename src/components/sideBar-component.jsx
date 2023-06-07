@@ -3,7 +3,7 @@ import { Box, List, ListItem, ListItemButton, ListItemIcon, ListItemText } from 
 import Switch from '@mui/material/Switch';
 import React from 'react';
 
-export const SideBarComponent = () => {
+export const SideBarComponent = ({ setMode, mode }) => {
     return (
         <Box flex={1.5} p={4} sx={{ display: { xs: 'none', sm: 'block' } }}>
             <Box sx={{ position: 'fixed' }}>
@@ -69,7 +69,7 @@ export const SideBarComponent = () => {
                             <ListItemIcon>
                                 <NightsStayRounded />
                             </ListItemIcon>
-                            <Switch sx={{ right: 10 }} />
+                            <Switch sx={{ right: 10 }} onChange={e => setMode(mode === 'light' ? 'dark' : 'light')} />
                         </ListItemButton>
                     </ListItem>
                 </List>

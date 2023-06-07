@@ -45,7 +45,8 @@ export const AddPostComponent = () => {
                     height={350}
                     p={3}
                     borderRadius={5}
-                    bgcolor='white'
+                    bgcolor={'background.default'}
+                    color={'text.primary'}
                 >
                     <Typography variant='h6' textAlign={'center'}>Create New Post</Typography>
                     <UserBoxStyled>
