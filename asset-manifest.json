@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Transmit-Me/static/css/main.69429c44.css",
+    "main.js": "/Transmit-Me/static/js/main.b8d102a9.js",
+    "static/media/dining.jpg": "/Transmit-Me/static/media/dining.0e482f8631f0d1eadfaf.jpg",
+    "static/media/family.jpg": "/Transmit-Me/static/media/family.2c9c8bf16b89011bbb80.jpg",
+    "static/media/group.jpg": "/Transmit-Me/static/media/group.c11a29cdb665f9405843.jpg",
+    "static/media/cafe.jpg": "/Transmit-Me/static/media/cafe.d1382a4e1d372b71f706.jpg",
+    "static/media/desk.jpg": "/Transmit-Me/static/media/desk.0769d1f8fd1e42986d8d.jpg",
+    "static/media/meeting.jpg": "/Transmit-Me/static/media/meeting.46f835fc9f7e71b94802.jpg",
+    "static/media/home.jpg": "/Transmit-Me/static/media/home.3ff4a00104356cb759ed.jpg",
+    "static/media/eating.jpg": "/Transmit-Me/static/media/eating.80ae373dbce8a8b8b69d.jpg",
+    "static/media/p2.jpg": "/Transmit-Me/static/media/p2.dc56ddfbab5fecbe9c96.jpg",
+    "static/media/main.jpg": "/Transmit-Me/static/media/main.36203941e47f8faff65a.jpg",
+    "static/media/p1.jpg": "/Transmit-Me/static/media/p1.8c8dd656303f0449f0e2.jpg",
+    "static/media/p5.jpg": "/Transmit-Me/static/media/p5.e84f6ba3bb09119e36b0.jpg",
+    "static/media/p4.jpg": "/Transmit-Me/static/media/p4.c0e7a5a44f079d396689.jpg",
+    "static/media/p6.jpg": "/Transmit-Me/static/media/p6.9d7921f0ee4b5bb02292.jpg",
+    "static/media/beach.jpg": "/Transmit-Me/static/media/beach.86b709e9714a84d1499d.jpg",
+    "static/media/p3.jpg": "/Transmit-Me/static/media/p3.e6d0756e8ae0906d510d.jpg",
+    "index.html": "/Transmit-Me/index.html",
+    "main.69429c44.css.map": "/Transmit-Me/static/css/main.69429c44.css.map",
+    "main.b8d102a9.js.map": "/Transmit-Me/static/js/main.b8d102a9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69429c44.css",
+    "static/js/main.b8d102a9.js"
+  ]
+}
