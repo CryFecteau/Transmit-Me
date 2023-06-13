@@ -118,7 +118,7 @@ export const RightBarComponent = () => {
                                         variant="body2"
                                         color="text.primary"
                                     >
-                                        Ali Connors
+                                        Ix C.
                                     </Typography>
                                     {" — I'll be in your neighborhood doing errands this…"}
                                 </React.Fragment>
@@ -140,7 +140,7 @@ export const RightBarComponent = () => {
                                         variant="body2"
                                         color="text.primary"
                                     >
-                                        to Scott, Alex, Jennifer
+                                        to Scoz, Ax, Jia
                                     </Typography>
                                     {" — Wish I could come, but I'm out of town this…"}
                                 </React.Fragment>
@@ -162,7 +162,7 @@ export const RightBarComponent = () => {
                                         variant="body2"
                                         color="text.primary"
                                     >
-                                        Sandra Adams
+                                        Sinq A.
                                     </Typography>
                                     {' — Do you have Paris recommendations? Have you ever…'}
                                 </React.Fragment>

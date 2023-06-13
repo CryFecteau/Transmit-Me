@@ -6,6 +6,7 @@ import './App.css';
 import { NavBarComponent } from './components/navBar-component';
 import { AddPostComponent } from './components/addPost-component';
 import React from 'react'
+import { LoadingComponent } from './components/loading-component';
 function App() {
   const [currentMode, setCurrentMode] = React.useState('light');
 
@@ -16,17 +17,20 @@ function App() {
   });
 
   return (
-    <ThemeProvider theme={darkMode}>
-      <Box bgcolor={'background.default'} color={'text.primary'} >
-        <NavBarComponent />
-        <Stack direction="row" spacing={2} justifyContent={"space-between"}>
-          <SideBarComponent setMode={setCurrentMode} mode={currentMode} />
-          <FeedComponent />
-          <RightBarComponent />
-        </Stack>
-        <AddPostComponent />
-      </Box>
-    </ThemeProvider>
+    <>
+      <LoadingComponent />
+      <ThemeProvider theme={darkMode}>
+        <Box bgcolor={'background.default'} color={'text.primary'} >
+          <NavBarComponent />
+          <Stack direction="row" spacing={2} justifyContent={"space-between"}>
+            <SideBarComponent setMode={setCurrentMode} mode={currentMode} />
+            <FeedComponent />
+            <RightBarComponent />
+          </Stack>
+          <AddPostComponent />
+        </Box>
+      </ThemeProvider>
+    </>
   );
 }
 

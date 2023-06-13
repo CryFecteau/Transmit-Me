@@ -48,7 +48,7 @@ export const NavBarComponent = () => {
         <AppBar position='sticky'>
             <ToolBarStyled>
                 <Typography variant='h5' sx={{ display: { xs: 'none', sm: 'block' }, letterSpacing: '0.2rem', fontWeight: '500' }}>
-                    Transmit Me
+                    <SettingsInputAntennaRounded /> Transmit Me
                 </Typography>
                 <SettingsInputAntennaRounded sx={{ display: { xs: 'block', sm: 'none' } }} />
                 <SearchBarStyled>
