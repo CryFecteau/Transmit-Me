@@ -1,7 +1,8 @@
-import styled from '@emotion/styled'
-import { AddPhotoAlternateRounded, AddReactionRounded, GroupAddRounded, VideoCallRounded } from '@mui/icons-material'
-import { Avatar, Box, Button, Fab, Modal, Stack, TextField, Tooltip, Typography } from '@mui/material'
-import React from 'react'
+import styled from '@emotion/styled';
+import { AddPhotoAlternateRounded, AddReactionRounded, GroupAddRounded, VideoCallRounded } from '@mui/icons-material';
+import { Avatar, Box, Button, Fab, Modal, Stack, TextField, Tooltip, Typography } from '@mui/material';
+import React from 'react';
+import main from '../assets/images/main.jpg';
 
 const ModalStyled = styled(Modal)({
     display: 'flex',
@@ -25,13 +26,17 @@ export const AddPostComponent = () => {
                 onClick={() => setModelOpen(true)}
                 title='Add Post'
                 sx={{
-                    position: 'fixed',
-                    bottom: 30,
-                    left: { xs: 'calc(50% - 25px)', md: 30 },
+                    display: 'none',
+                    '@media (max-width: 600px)': {
+                        display: 'block',
+                        position: 'fixed',
+                        bottom: 30,
+                        left: { xs: 'calc(50% - 25px)', md: 30 },
+                    },
                 }}
             >
                 <Fab color='primary' aria-label='add post' >
-                    <AddReactionRounded />
+                    <AddReactionRounded sx={{ marginTop: '10px' }} />
                 </Fab>
             </Tooltip>
             <ModalStyled
@@ -50,8 +55,8 @@ export const AddPostComponent = () => {
                 >
                     <Typography variant='h6' textAlign={'center'}>Create New Post</Typography>
                     <UserBoxStyled>
-                        <Avatar sx={{ width: 30, height: 30 }} alt='Remy Sharp' src='https://picsum.photos/50' />
-                        <Typography variant='span'>Remy Sharp</Typography>
+                        <Avatar sx={{ width: 30, height: 30 }} alt='Beenie B' src={main} />
+                        <Typography variant='h6'>Beenie B.</Typography>
                     </UserBoxStyled>
                     <TextField
                         sx={{ width: '100%', mt: 2 }}
