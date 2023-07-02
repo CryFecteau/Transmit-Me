@@ -7,11 +7,12 @@ import LinearProgress from '@mui/material/LinearProgress';
 const style = {
     width: '100vw',
     height: '100vh',
-    backgroundColor: '#e3e0e0',
+    backgroundColor: 'rgb(25,118,210)',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
 };
+
 const style2 = {
     display: 'flex',
     justifyContent: 'center',
@@ -19,13 +20,11 @@ const style2 = {
     width: '50vw',
     height: 'auto',
     padding: '2rem',
-}
+};
 
 const style3 = {
     padding: '.5rem',
-}
-
-
+};
 
 export const LoadingComponent = () => {
     const [open, setOpen] = React.useState(true);
@@ -67,12 +66,12 @@ export const LoadingComponent = () => {
                                 React/MUI Application
                             </Typography>
                             <Typography sx={{ marginTop: '1rem', marginBottom: '1.5rem' }} variant="body2">
-                                This responsive application was built using React and Material UI to showcase design skills as a front-end developer. Please note that this is a purely design-focused demonstration, and the application has limited functional features. Thank you for visiting!
+                                This responsive web application was built using React and Material UI to showcase design skills as a front-end developer. Please note that this is a purely design-focused demonstration, and the application has limited functional features. Thank you for visiting!
                             </Typography>
-                            <LinearProgress variant="determinate" value={progress} />
+                            <LinearProgress color="primary" variant="determinate" value={progress} />
                         </Box>
                         <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                            <Button id='enterBtn' onClick={handleClose} variant="contained" disabled={isLoading}>{isLoading ? 'Loading...' : 'Enter'}</Button>
+                            <Button id='enterBtn' color="primary" onClick={handleClose} variant="contained" disabled={isLoading}>{isLoading ? 'Loading...' : 'Enter'}</Button>
                         </Box>
                     </Paper>
                 </Box>

@@ -52,7 +52,7 @@ export const NavBarComponent = () => {
                 </Typography>
                 <SettingsInputAntennaRounded sx={{ display: { xs: 'block', sm: 'none' } }} />
                 <SearchBarStyled>
-                    <InputBase placeholder='Search...' />
+                    <InputBase placeholder='Search...' sx={{ color: 'black' }} />
                 </SearchBarStyled>
                 <IconsStyled>
                     <Badge badgeContent={4} color='error'>

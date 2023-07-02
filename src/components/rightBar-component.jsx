@@ -41,9 +41,10 @@ const StyledBadge = styled(Badge)(({ theme }) => ({
         },
     },
 }));
+
 export const RightBarComponent = () => {
     return (
-        <Box flex={2} p={4} sx={{ display: { xs: 'none', sm: 'block' } }}>
+        <Box flex={2} p={4} sx={{ display: { xs: 'none', sm: 'block' }, mb: 2 }}>
             <Box position='fixed'>
                 <Typography variant='h6'>Online Friends</Typography>
                 <AvatarGroup max={5} sx={{ m: 2, justifyContent: 'start' }}>
@@ -91,7 +92,7 @@ export const RightBarComponent = () => {
                     </StyledBadge>
                 </AvatarGroup>
                 <Typography variant='h6'>Latest Photos</Typography>
-                <ImageList sx={{ mt: 2, width: '100%', maxWidth: 360 }} cols={3} rowHeight={120} gap={5}>
+                <ImageList sx={{ mt: 2, mb: 2, width: '100%', maxWidth: 360 }} cols={3} rowHeight={120} gap={5}>
                     <ImageListItem>
                         <img src={desk} alt='' />
                     </ImageListItem>
@@ -106,7 +107,7 @@ export const RightBarComponent = () => {
                 <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
                     <ListItem alignItems="flex-start">
                         <ListItemAvatar>
-                            <Avatar sx={{ bgcolor: theme.palette.secondary.main }} aria-label="Zn">Zn</Avatar>
+                            <Avatar sx={{ bgcolor: theme.palette.secondary.main, color: '#fff' }} aria-label="Zn">Zn</Avatar>
                         </ListItemAvatar>
                         <ListItemText
                             primary="Brunch this weekend?"
@@ -128,7 +129,7 @@ export const RightBarComponent = () => {
                     <Divider variant="inset" component="li" />
                     <ListItem alignItems="flex-start">
                         <ListItemAvatar>
-                            <Avatar sx={{ bgcolor: theme.palette.secondary.main }} aria-label="Xz">Xz</Avatar>
+                            <Avatar sx={{ bgcolor: theme.palette.secondary.main, color: '#fff' }} aria-label="Xz">Xz</Avatar>
                         </ListItemAvatar>
                         <ListItemText
                             primary="Summer BBQ"
@@ -150,7 +151,7 @@ export const RightBarComponent = () => {
                     <Divider variant="inset" component="li" />
                     <ListItem alignItems="flex-start">
                         <ListItemAvatar>
-                            <Avatar sx={{ bgcolor: theme.palette.secondary.main }} aria-label="Xr">Xr</Avatar>
+                            <Avatar sx={{ bgcolor: theme.palette.secondary.main, color: '#fff' }} aria-label="Xr">Xr</Avatar>
                         </ListItemAvatar>
                         <ListItemText
                             primary="Oui Oui"

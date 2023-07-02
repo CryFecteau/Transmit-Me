@@ -8,13 +8,14 @@ import dining from '../assets/images/dining.jpg';
 import family from '../assets/images/family.jpg';
 import home from '../assets/images/home.jpg';
 import meeting from '../assets/images/meeting.jpg';
+
 export const PostComponent = () => {
     return (
         <>
             <Card sx={{ marginBottom: 5, boxShadow: 12 }}>
                 <CardHeader
                     avatar={
-                        <Avatar sx={{ bgcolor: theme.palette.secondary.main }} aria-label="Zn">Zn</Avatar>
+                        <Avatar sx={{ bgcolor: theme.palette.secondary.main, color: '#fff' }} aria-label="Zn">Zn</Avatar>
                     }
                     action={
                         <IconButton aria-label="settings">

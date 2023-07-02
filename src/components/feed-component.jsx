@@ -37,13 +37,6 @@ export const FeedComponent = () => {
                     </Button>
                 </Stack>
             </Box>
-            {/* <Box flex={4} p={2}>
-                <PostComponent />
-                <PostComponent />
-                <PostComponent />
-                <PostComponent />
-                <PostComponent />
-            </Box> */}
             <Box p={2}>
                 <PostComponent />
             </Box>
