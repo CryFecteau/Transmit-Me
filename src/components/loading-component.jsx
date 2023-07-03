@@ -65,8 +65,11 @@ export const LoadingComponent = () => {
                             <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
                                 React/MUI Application
                             </Typography>
-                            <Typography sx={{ marginTop: '1rem', marginBottom: '1.5rem' }} variant="body2">
-                                This responsive web application was built using React and Material UI to showcase design skills as a front-end developer. Please note that this is a purely design-focused demonstration, and the application has limited functional features. Thank you for visiting!
+                            <Typography sx={{ marginTop: '1rem', marginBottom: '.5rem' }} variant="body2">
+                                This responsive web application is a mock social media site created to showcase React and MUI. Please note that this is a purely design-focused demonstration, and the application has limited functional features. Thank you for visting!
+                            </Typography>
+                            <Typography sx={{ marginBottom: '1.5rem', fontSize: 14 }} color="text.secondary">
+                                - Crystal Fecteau
                             </Typography>
                             <LinearProgress color="primary" variant="determinate" value={progress} />
                         </Box>
@@ -75,7 +78,7 @@ export const LoadingComponent = () => {
                         </Box>
                     </Paper>
                 </Box>
-            </Modal>
-        </div>
+            </Modal >
+        </div >
     )
 }
