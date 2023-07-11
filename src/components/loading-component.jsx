@@ -66,7 +66,7 @@ export const LoadingComponent = () => {
                                 React/MUI Application
                             </Typography>
                             <Typography sx={{ marginTop: '1rem', marginBottom: '.5rem' }} variant="body2">
-                                This responsive web application is a mock social media site created to showcase React and MUI. Please note that this is a purely design-focused demonstration, and the application has limited functional features. Thank you for visting!
+                                This is a mock social media site created to showcase React and Material UI. Please note that this is a purely design-focused demonstration, and the application has limited functional features. Thank you for visting!
                             </Typography>
                             <Typography sx={{ marginBottom: '1.5rem', fontSize: 14 }} color="text.secondary">
                                 - Crystal Fecteau
